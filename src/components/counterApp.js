@@ -8,7 +8,7 @@ const CounterApp = () => {
     const dispatch = useDispatch();
     return (
         <div>
-            <h1>Count : {count}</h1>
+            <h1>{count}</h1>
             <button onClick={()=>dispatch(increase())}>Increment</button>
             <button onClick={()=>dispatch(decrease())}>Decrease</button>
 
